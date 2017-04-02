@@ -1,0 +1,25 @@
+body{
+  background-color: rgb(25,25,24);
+}
+
+
+div.nav-tab {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 90%;
+  height: 25px;
+  box-sizing: border-box;
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgb(30, 57, 87);
+}
+div.nav-tab:hover {
+  background-color: rgb(110,115,121);
+}
+a.navigation {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  font-family: calibri, helvetica, sans-serif;
+  margin-left: 10px;
+}
