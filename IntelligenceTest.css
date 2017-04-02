@@ -1,25 +1,56 @@
 body{
-  background-color: rgb(25,25,24);
+  font-family: calibri, helvetica, sans-serif;
 }
 
+div.background {
+  background-image: url("https://raw.githubusercontent.com/MVogelmann/p02_IntelligenceTest/master/Artificial-intelligence-elon-musk-hawking1.jpg");
+  background-repeat: no-repeat;
+  width: 1024px;
+  height: 785px;
+  background-color: white;
+  border-style: dashed;
+}
 
-div.nav-tab {
+div.main_transparent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 80%;
+  background-color: white;
+  opacity: 0.7;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+div.text {
+  margin-left: 10px;
+  font-size: large;
+  color: darkblue;
+}
+text::first-letter{
+  font-size: x-large;
+}
+
+div.navigation_div {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  width: 90%;
+  width: 10%;
   height: 25px;
   box-sizing: border-box;
   border-radius: 5px 5px 5px 5px;
   background-color: rgb(30, 57, 87);
 }
-div.nav-tab:hover {
+div.navigation_div:hover {
   background-color: rgb(110,115,121);
 }
 a.navigation {
   text-decoration: none;
+  font-weight: bold;
   font-size: large;
   color: white;
-  font-family: calibri, helvetica, sans-serif;
-  margin-left: 10px;
+  margin-left: 20px;
 }
