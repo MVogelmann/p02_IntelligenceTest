@@ -10,7 +10,7 @@ div.background {
   width: 1024px;
   height: 785px;
   background-color: white;
-  border-style: dashed;
+  /*border-style: dashed;*/
 }
 
 div.main_transparent {
