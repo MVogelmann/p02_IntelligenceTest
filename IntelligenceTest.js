@@ -1,3 +1,5 @@
+//Author: Matthaeus Vogelmann
+
 function CheckAnswer1()
 {
   var Answer = document.getElementById('Answer').value;
